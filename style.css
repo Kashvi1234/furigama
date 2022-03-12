@@ -1,0 +1,175 @@
+cta {
+    border: none;
+    background: white;
+   }
+   
+   .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 13px;
+    padding-right: 0px;
+    text-transform: uppercase;
+   }
+   
+   .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active svg {
+    transform: scale(0);
+   }
+   
+   .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+   }
+   
+   .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+   }
+   
+   .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+   }
+   .btn {
+       height: 40px;
+       width: 80px;
+       
+    padding: 5px 20px;
+    border: unset;
+    border-radius: 10px;
+    color: #212121;
+    z-index: 1;
+    background: #ffffff;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    -webkit-transition: all 250ms;
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    -webkit-transition: all 250ms;
+    transition: all 250ms
+   }
+   
+   .btn:hover {
+    color: #e8e8e8;
+   }
+   
+   .btn:hover::before {
+    width: 100%;
+   }
+   .btn2 {
+    position: relative;
+
+    margin: auto;
+    padding: 8px 10px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    font-size: 10px;
+   }
+   
+   .btn2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #b1dae7;
+    width: 45px;
+    height: 45px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+   }
+   
+   .btn2 span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    font-weight: 1000;
+    letter-spacing: 0.05em;
+    color: #234567;
+   }
+   
+   .btn2 svg {
+    position: relative;
+    top: 0;
+    margin-left: auto;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 1;
+    -webkit-transform: translateX(-5px);
+        -ms-transform: translateX(-5px);
+            transform: translateX(-5px);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+   }
+   
+   .btn2:hover:before {
+    width: 105%;
+    height: 100%;
+    background: #b1dae7;
+   }
+   
+   .btn2:hover svg {
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0);
+   }
+   
+   .btn2:active {
+    -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+            transform: scale(0.95);
+   }
+   .bg1{
+       background-image: url(image/undraw_reading_time_re_phf7.svg);
+       background-repeat: no-repeat;
+       background-position: left;
+    
+       
+   }
+.ctn1{
+    position: relative;
+    right: 0;
+}
+
+
+
